@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body{
+            width: 85vw;
+            height: 85vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items:center ;
+            background-image:url(backround.jpg);
+            background-size:cover;
+        }
+ 
+        .searchbar{
+            max-width: 300;
+            display: inline-flex;
+        }
+        .searchtext{
+            width: 450px;
+            padding: 10px;
+            outline: none;
+            border: 1px solid rgb(90, 105, 119);
+            border-radius: 5px 0 0 5px;
+            transition: 0.5s;
+            background-color: rgb(208, 227, 243);
+        }
+        .btn{
+           width: 40px;
+           background-color: rgb(46, 145, 231);
+           outline: none;
+           border: none;
+           color: white;
+           border-radius: 0 5px 5px 0;
+        }
+        .contanter{
+            display: flex;
+            height: auto;
+            width: auto;
+        }
+        img{
+            height: 250px;
+            width: 250px;
+        }   
+        #f{
+            text-align: center;
+        } 
+        #s{
+             text-align: left;
+        }
+        #t{
+             text-align: right;
+        }
+        #f{
+            text-align: right;
+        }
+        #fi{
+             text-align: left;
+        }
+        #t{
+            align-self: flex-end;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="searchbar">
+        <input type="text" class="searchtext" placeholder="search">
+        <button class="btn">
+            <i class="fa fa-search"></i>
+        </button>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="contanter">
+        <div class="box">
+         <a href="productview.html"> 
+            <img src="image/image4.jpg" alt="" id="s">
+            <img src="image/image5.jpg" alt="" id="t">
+            <img src="image/image6.jpg" alt="" id="f">
+            <img src="image/image7.jpg" alt="" id="fi">
+            
+        </div></a>
+     </div>
+</body>
+</html>

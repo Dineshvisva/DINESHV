@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="styel.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+        .left{
+            width: 85vw;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items:center;}
+ 
+        .searchbar{
+            max-width: 400;
+            display: inline-flex;
+        }
+        .searchtext{
+            width: 600px;
+            padding: 10px;
+            outline: none;
+            border: 1px solid rgb(90, 105, 119);
+            border-radius: 5px 0 0 5px;
+            transition: 0.5s;
+            background-color: rgb(208, 227, 243);
+        }
+        .btn{
+           width: 80px;
+           background-color: rgb(46, 145, 231);
+           outline: none;
+           border: none;
+           color: white;
+           border-radius: 0 5px 5px 0;
+        }
+        .contanter{
+            display: flex;
+            height: auto;
+            width: auto;
+            align-content: right;
+        }
+        img{
+            height: 250px;
+            width: 350px;
+        }   
+        #f{
+            text-align: center;
+        } 
+        #s{
+             text-align: left;
+        }
+        #t{
+             text-align: right;
+        }
+    </style>
+    </head>
+    <body>
+        <div class="navbar">
+            <div class="logo">  </div>
+            <div class="navbar-link">
+                <ul>
+                    <li><a href="homepage.html">Home</a></li>
+                    <li><a href="productview.html">View product</a></li>
+                    <li><a href="login.html">login</li></a>
+                </ul>
+            </div>
+         </div>
+         <div class="left">
+        <div class="searchbar">
+            <input type="text" class="searchtext" placeholder="search">
+            <button class="btn">
+                <i class="fa fa-search"></i>
+            </button>
+        </div></div>
+        <br>
+        <br>
+        <br>
+        
+        <div class="contanter">
+        <div class="box">
+     
+            <a href="productview.html"> <img src="image/image3.jpg" alt="" id="f">
+            <img src="image/image4.jpg" alt="  " id="s">
+            <img src="image/image5.jpg" alt=" " id="t"></a>
+        </div>
+     </div>
+ </body>
+
+</html>
